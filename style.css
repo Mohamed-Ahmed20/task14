@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    gap: 25px;
+}
+
+ section form {
+    width: 500px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+
+}
+
+form label{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+form button{
+    padding: 5px 0;
+    border-radius: 10px;
+    background-color: rgb(7, 113, 188);
+    cursor: pointer;
+}
+
+
